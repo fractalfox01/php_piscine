@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        #wrapper
+        {
+            margin: 0 auto;
+            background-color: navy;
+            width: 90vw;
+            height: 50vh;
+        }
+        #frm
+        {
+            margin-left: 35vw;
+            padding-top: 20vh;
+        }
+        form
+        {
+            background-color: black;
+            color: white;
+            width: 20vw;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="frm">
+                <form action="modif.php" method="POST">
+                    Username <input name="login" value="">
+                    <br />
+                    Password <input name="passwd" value="" required>
+                    <br />
+                    <input type="submit" value="OK" required>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
